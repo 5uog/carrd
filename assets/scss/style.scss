@@ -22,7 +22,8 @@
 body {
     overflow: hidden;
     font-family: var(--body-font);
-    background-color: var(--body-color);
+    background: linear-gradient(var(--first-color), var(--black-color));
+    backdrop-filter: blur(5px);
 }
 
 a {
@@ -72,7 +73,7 @@ ul {
         padding: .75rem;
         border-radius: 3rem;
         text-align: initial;
-        box-shadow: 0 8px 24px hsla(29, 75%, 56%, .3);
+        box-shadow: 0 8px 24px hsla(0, 0, 0, .2);
         position: absolute;
         left: 0;
         right: 0;
