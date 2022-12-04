@@ -22,7 +22,7 @@
 body {
     overflow: hidden;
     font-family: var(--body-font);
-    background: linear-gradient(var(--first-color), var(--black-color));
+    background: linear-gradient(var(--first-color), var(--body-color));
     backdrop-filter: blur(5px);
 }
 
@@ -62,7 +62,7 @@ ul {
     }
 
     &__profession {
-        color: var(--text-color);
+        color: var(--body-color);
         font-size: var(--smaller-font-size);
         font-weight: 500;
     }
